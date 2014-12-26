@@ -29,6 +29,20 @@
 <script type="text/javascript" src="./js/circle-player/js/jquery.grab.js"></script>
 <script type="text/javascript" src="./js/circle-player/js/mod.csstransforms.min.js"></script>
 <script type="text/javascript" src="./js/circle-player/js/circle.player.js"></script>
+<script type="text/javascript" src="./js/circle-player/js/jquery.touchwipe.1.1.1.js"></script>
+<script>
+$(function(){
+	$(document.body).touchwipe({
+ 		wipeLeft: function() {
+ 	 		window.location.href='www.torch.org.tw';
+ 
+ 		},
+ 		wipeRight: function() {
+ 	 		window.location.href='www.torch.org.tw';	
+ 		}
+	});
+})
+	</script>
 <script type="text/javascript">
 //<![CDATA[
 
@@ -71,27 +85,39 @@ $(document).ready(function(){
       <div class="container">
       	<div class="row">
 
-			<!-- want -->
 
-			<div id="cp_container_1" class="cp-container">
-				<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
-					<div class="cp-buffer-1"></div>
-					<div class="cp-buffer-2"></div>
-				</div>
-				<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
-					<div class="cp-progress-1"></div>
-					<div class="cp-progress-2"></div>
-				</div>
-				<div class="cp-circle-control"></div>
-				<ul class="cp-controls">
-					<li><a class="cp-play" tabindex="1">play</a></li>
-					<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
-				</ul>
-			</div>
+      		<div class="col-xs-25 col-sm-25 col-md-25 col-lg-25 banner">
+				      					<!-- want -->
+				      		<div class="row spanforbanner">
+
+				      		</div>
+				      		<div class="row">
+				      			<div class="col-xs-13 col-sm-8 col-md-6 col-lg-6 col-xs-offset-6 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+								<img src="./img/pastor_01.png" class="img-circle img-responsive ">
+								</div>
+
+								<div id="cp_container_1" class="
+								col-xs-9 col-sm-8 col-md-6 col-lg-6 col-xs-offset-8 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 cp-container">
+									<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+										<div class="cp-buffer-1"></div>
+										<div class="cp-buffer-2"></div>
+									</div>
+									<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+										<div class="cp-progress-1"></div>
+										<div class="cp-progress-2"></div>
+									</div>
+									<div class="cp-circle-control"></div>
+									<ul class="cp-controls">
+										<li><a class="cp-play" tabindex="1">play</a></li>
+										<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+									</ul>
+								</div>
+							</div><!-- /row -->
+			</div><!-- /banner -->
 		</div><!-- /row -->
 		<footer class="row">
-			<div class="foot col-xs-24 col-sm-24 col-md-24 col-lg-24">
-			Designed by Jojo Ma   Music composed by Chïa-En Hsieh
+			<div class="col-xs-25 col-sm-25 col-md-25 col-lg-25 foot">
+			Designed by Jojo Ma   Music composed by Chïa-En Hsieh<br/>
 	 版權所有 財團法人中華基督教行道會火把教會     非經同意不得使用	
 	 		</div>
 		</footer><!-- /row -->
