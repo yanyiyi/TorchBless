@@ -36,6 +36,10 @@
 	border-radius: 50%;
 	height: 150px;
 }
+
+.head_poster img{
+	margin: auto;
+}
 @media (max-width: 640px){
 	.foot{
 		background-image: url(../img/footer_m.jpg);
@@ -49,15 +53,15 @@
 
 		}
 
-	.spanforbanner{
-		height: 200px;		
-	}
-	.mainlink{
-		display: none;
-	}
-	.player_head{
-	margin-top: 50%;
-}
+		.spanforbanner{
+			height: 200px;		
+		}
+		.mainlink{
+			display: none;
+		}
+		.player_head{
+		margin-top: 75%;
+		}
 }
 
 @media (min-width: 641px){
@@ -75,7 +79,7 @@
 	}
 	.player_head{
 	margin-top: 40%;
-}
+	}
 
 }
 @media (min-width: 1024px){
