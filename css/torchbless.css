@@ -46,8 +46,7 @@
 	.foot{
 		background-image: url(../img/footer_m.jpg);
 		height: 50px;
-		font-size: 6pt;
-		margin-top: 50px;	
+		font-size: 6pt;	
 		}
 
 	.banner{
@@ -98,7 +97,7 @@
 	}
 	.player_head{
 	margin-top: 30%;
-}
+	}
 
 }
 
