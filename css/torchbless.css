@@ -24,6 +24,9 @@
 .player_head{
 	margin-top: 250px;
 }
+.head_poster{
+	margin-bottom: 50px;	
+}
 @media (max-width: 640px){
 	.foot{
 		background-image: url(../img/footer_m.jpg);
