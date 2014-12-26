@@ -11,48 +11,50 @@
 }
 
 @media (max-width: 640px){
-.foot{
-	background-image: url(../img/footer_m.jpg);
-	height: 104px;
-	}
+	.foot{
+		background-image: url(../img/footer_m.jpg);
+		height: 104px;
+		}
 
-.banner{
-	background-image: url(../img/banner_m.jpg);
-	height: 720px;
-	}
+	.banner{
+		background-image: url(../img/banner_m.jpg);
+		height: 720px;
+		}
 
-.spanforbanner{
-	height: 360px;		
-}
+	.spanforbanner{
+		height: 300px;		
+	}
 
 }
 
 @media (min-width: 641px){
-.foot{
-	background-image: url(../img/footer_t.jpg);
-	height: 50px;
+	.foot{
+		background-image: url(../img/footer_t.jpg);
+		height: 50px;
+		}
+		
+	.banner{
+		background-image: url(../img/banner_t.jpg);
+		height: 300px;
+		}
+	.spanforbanner{
+		height: 150px;		
 	}
-	
-.banner{
-	background-image: url(../img/banner_t.jpg);
-	height: 300px;
+	.mainlink{
+		display: none;
 	}
-.spanforbanner{
-	height: 150px;		
-}
-
 }
 
 @media (min-width: 1024px){
-.foot{
-	background-image: url(../img/footer_s.jpg);
-	height: 75px;
+	.foot{
+		background-image: url(../img/footer_s.jpg);
+		height: 75px;
+		}
+	.banner{
+		background-image: url(../img/banner_s.jpg);
+		}
+	.spanforbanner{
+		height: 150px;		
 	}
-.banner{
-	background-image: url(../img/banner_s.jpg);
-	}
-.spanforbanner{
-	height: 150px;		
-}
 
 }
