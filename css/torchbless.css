@@ -46,7 +46,7 @@
 }
 @media (max-width: 640px){
 	body{
-		margin-top: -100px;
+		padding-top: -200px;
 	}
 	.remind{
 	display:block;
