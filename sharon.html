@@ -33,8 +33,40 @@
 <script type="text/javascript" src="./js/circle-player/js/jquery.grab.js"></script>
 <script type="text/javascript" src="./js/circle-player/js/mod.csstransforms.min.js"></script>
 <script type="text/javascript" src="./js/circle-player/js/circle.player.js"></script>
-<script type="text/javascript" src="./js/jquery.touchwipe.1.1.1.js"></script>
+<script type="text/javascript" src="./js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript">
 
+ $(function() { 
+  var reurl = new Array();  
+
+reurl[0] = './ann.html';
+reurl[1] = './anna.html';  
+reurl[2] = './daniel.html';
+reurl[3] = './gunli.html';
+reurl[4] = './jeff.html';
+reurl[5] = './lily.html';
+reurl[6] = './maii.html';
+reurl[7] = './sharon.html';
+reurl[8] = './younger.html';
+
+var maxNum = reurl.length-1;  
+var minNum = 0;
+var n = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;     
+      
+      //Enable swiping...
+      $(document.body).swipe( {
+      	swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+        //Generic swipe handler for all directions
+         $(location).attr('href',reurl[n]);
+      },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+        threshold:75
+      });
+    });
+
+
+
+</script>
 <script type="text/javascript">
 //<![CDATA[
 
