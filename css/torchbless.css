@@ -7,9 +7,19 @@
 	background-size: contain;
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-color: #FFF;
 }
-
+.mainlink{
+	background-image: url(../img/bk-01.jpg);
+	background-color: #FFF;	
+}
+.linktoOther{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.bk{
+	background-image: url(../img/bk-01.jpg);
+	background-color: #FFF;	
+}
 @media (max-width: 640px){
 	.foot{
 		background-image: url(../img/footer_m.jpg);
@@ -22,7 +32,10 @@
 		}
 
 	.spanforbanner{
-		height: 300px;		
+		height: 200px;		
+	}
+	.mainlink{
+		display: none;
 	}
 
 }
@@ -40,9 +53,7 @@
 	.spanforbanner{
 		height: 150px;		
 	}
-	.mainlink{
-		display: none;
-	}
+
 }
 
 @media (min-width: 1024px){
