@@ -12,9 +12,8 @@
 
 .cp-container {
 	position:relative;
-	width:104px; /* 200 - (2 * 48) */
+	width:104px;  200 - (2 * 48) */
 	height:104px;
-	padding:48px;
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 

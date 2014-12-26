@@ -27,6 +27,17 @@
 .head_poster{
 	margin-bottom: 25px;	
 }
+
+.play_main{
+	margin: auto;
+}
+.play_cirbk{
+	margin-top: 100px;
+	background-size: contain; 
+	text-align: center;
+	border-radius: 50%;
+	height: 150px;
+}
 @media (max-width: 640px){
 	.foot{
 		background-image: url(../img/footer_m.jpg);
