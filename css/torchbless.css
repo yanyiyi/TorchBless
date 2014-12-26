@@ -21,9 +21,7 @@
 	background-color: #FFF;	
 }
 
-.player_head{
-	margin-top: 40%;
-}
+
 .head_poster{
 	margin-bottom: 25px;	
 }
@@ -57,7 +55,9 @@
 	.mainlink{
 		display: none;
 	}
-
+	.player_head{
+	margin-top: 50%;
+}
 }
 
 @media (min-width: 641px){
@@ -73,7 +73,9 @@
 	.spanforbanner{
 		height: 150px;		
 	}
-
+	.player_head{
+	margin-top: 40%;
+}
 
 }
 @media (min-width: 1024px){
@@ -88,6 +90,9 @@
 		height: 150px;	
 
 	}
+	.player_head{
+	margin-top: 30%;
+}
 
 }
 
