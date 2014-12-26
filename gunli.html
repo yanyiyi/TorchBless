@@ -54,10 +54,13 @@ var minNum = 0;
 var n = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;     
       
       //Enable swiping...
-      $(document.body).swipe( {
-      	swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+$(document.body).swipe( {
+      	swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {
         //Generic swipe handler for all directions
-         $(location).attr('href',reurl[n]);
+          $(location).attr('href',reurl[n]);
+      },swipeLeft:function(event, direction, distance, duration, fingerCount, fingerData) {
+        //Generic swipe handler for all directions
+          $(location).attr('href',reurl[n]);
       },
         //Default is 75px, set to 0 for demo so any distance triggers swipe
         threshold:75
