@@ -33,17 +33,37 @@
 <script type="text/javascript" src="./js/circle-player/js/jquery.grab.js"></script>
 <script type="text/javascript" src="./js/circle-player/js/mod.csstransforms.min.js"></script>
 <script type="text/javascript" src="./js/circle-player/js/circle.player.js"></script>
-<script type="text/javascript" src="./js/jquery.touchwipe.js"></script>
+<script type="text/javascript" src="./js/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript">
-$(document.body).touchwipe({
-     wipeLeft: function() { alert("left"); },
-     wipeRight: function() { alert("right"); },
-     wipeUp: function() { alert("up"); },
-     wipeDown: function() { alert("down"); },
-     min_move_x: 20,
-     min_move_y: 20,
-     preventDefaultEvents: true
-});
+
+ $(function() {      
+      //Enable swiping...
+      $(document.body).swipe( {
+        //Generic swipe handler for all directions
+         var reurl = new Array();  
+
+reurl[0] = './ann.html';
+reurl[1] = './anna.html';  
+reurl[2] = './daniel.html';
+reurl[3] = './gunli.html';
+reurl[4] = './jeff.html';
+reurl[5] = './lily.html';
+reurl[6] = './maii.html';
+reurl[7] = './sharon.html';
+reurl[8] = './younger.html';
+
+var maxNum = reurl.length-1;  
+var minNum = 0;  
+var n = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;  
+location.href = reurl[n];
+      },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+        threshold:0
+      });
+    });
+
+
+
 </script>
 <script type="text/javascript">
 //<![CDATA[
