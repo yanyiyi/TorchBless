@@ -2,7 +2,9 @@
 	color: #FFF;
 	text-align: center;
 	}
-
+.foot{
+	padding-top: 5px;
+}
 .banner{
 	background-size: contain;
 	background-position: top center;
