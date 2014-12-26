@@ -76,6 +76,8 @@
 	.foot{
 		background-image: url(../img/footer_t.jpg);
 		height: 50px;
+		margin-top: 25px;
+		margin-bottom: 13px;
 		}
 		
 	.banner{
