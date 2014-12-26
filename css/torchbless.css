@@ -22,7 +22,7 @@
 }
 
 .player_head{
-	margin-top: 250px;
+	margin-top: 300px;
 }
 .head_poster{
 	margin-bottom: 50px;	
@@ -32,6 +32,7 @@
 		background-image: url(../img/footer_m.jpg);
 		height: 50px;
 		font-size: 6pt;
+		margin-top: 50px;	
 		}
 
 	.banner{
@@ -64,7 +65,6 @@
 
 
 }
-
 @media (min-width: 1024px){
 	.foot{
 		background-image: url(../img/footer_s.jpg);
@@ -74,7 +74,10 @@
 		background-image: url(../img/banner_s.jpg);
 		}
 	.spanforbanner{
-		height: 150px;		
+		height: 150px;	
+
 	}
 
 }
+
+
