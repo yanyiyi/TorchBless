@@ -20,15 +20,20 @@
 	background-image: url(../img/bk-01.jpg);
 	background-color: #FFF;	
 }
+
+.player_head{
+	margin-top: 250px;
+}
 @media (max-width: 640px){
 	.foot{
 		background-image: url(../img/footer_m.jpg);
-		height: 104px;
+		height: 50px;
+		font-size: 6pt;
 		}
 
 	.banner{
 		background-image: url(../img/banner_m.jpg);
-		height: 360px;
+
 		}
 
 	.spanforbanner{
@@ -48,11 +53,12 @@
 		
 	.banner{
 		background-image: url(../img/banner_t.jpg);
-		height: 300px;
+
 		}
 	.spanforbanner{
 		height: 150px;		
 	}
+
 
 }
 
