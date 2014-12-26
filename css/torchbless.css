@@ -59,17 +59,14 @@
 
 	.banner{
 		background-image: url(../img/banner_m.jpg);
-		background-position: -50px;
+		background-position: 0 -25px;
 		}
 
-		.spanforbanner{
-			height: 180px;		
-		}
 		.mainlink{
 			display: none;
 		}
 		.player_head{
-		margin-top: 75%;
+		margin-top: 70%;
 		}
 }
 
@@ -85,9 +82,7 @@
 		background-image: url(../img/banner_t.jpg);
 
 		}
-	.spanforbanner{
-		height: 150px;		
-	}
+
 	.player_head{
 	margin-top: 40%;
 	}
@@ -104,10 +99,7 @@
 	.banner{
 		background-image: url(../img/banner_s.jpg);
 		}
-	.spanforbanner{
-		height: 150px;	
 
-	}
 	.player_head{
 	margin-top: 30%;
 	}
