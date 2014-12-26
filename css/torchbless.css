@@ -45,6 +45,9 @@
 	margin: auto;
 }
 @media (max-width: 640px){
+	body{
+		margin-top: -100px;
+	}
 	.remind{
 	display:block;
 	text-align: center;
